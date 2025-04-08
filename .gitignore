@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+*.pdf
+/Descargas/
+/Facturas_clientes/
+/src/prueba.py
