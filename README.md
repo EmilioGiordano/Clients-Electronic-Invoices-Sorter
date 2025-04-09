@@ -1,4 +1,4 @@
-# 💾 Generador y Organizador de Facturas PDF para Clientes
+# 💾 Organizador y generador de Facturas C .PDF para clientes
 
 
 Este proyecto contiene **dos scripts de Python**. Por un lado, el más importante permite automatizar el orden de los archivos de Facturas C de indeterminada cantidad de personas. Por otro lado, el scripts para generar facturas C permite realizar pruebas sobre el script anterior, ya que es necesario contar con archivos con la misma estructura que las facturas C descargadas de la aplicación web de __ARCA/AFIP__.
