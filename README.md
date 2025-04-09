@@ -10,11 +10,11 @@ Ideal para:
 - **Empresas** que generan y archivan facturas por cliente de forma periódica.
 - Cualquier persona que quiera **automatizar el orden de sus facturas** electrónicas o similares.
 ---
-## 📂 1. `organizador_facturas.py`
+## 📂 1. Organizador de facturas C
 
 Este script:
 
-- Lee el archivo `cuits.xlsx`.
+- Lee el archivo `cuits.xlsx`, que contiene una tabla con CUIT, nombre, apellido y nombre del directorio que se creará para cada cliente.
 - Recorre una carpeta de descargas (donde están los PDFs generados).
 - Mueve cada PDF a una carpeta con la siguiente estructura:  
   `Facturas_clientes/<NombreCliente>/<AÑO>/<MES_NUM_MES_NOMBRE_AÑO>/`
