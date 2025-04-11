@@ -16,11 +16,12 @@ Este script:
 
 - Lee el archivo `cuits.xlsx`, que contiene una tabla con CUIT, nombre, apellido y nombre del directorio que se creará para cada cliente.
 - Recorre una carpeta de descargas (donde están los PDFs generados).
-- Mueve cada PDF a una carpeta con la siguiente estructura:  
-  `Facturas_clientes/<NombreCliente>/<AÑO>/<MES_NUM_MES_NOMBRE_AÑO>/`
+- Mueve cada PDF, dependiendo del número de CUIT, a una carpeta con la siguiente estructura:  
+  `Facturas_clientes/<NombreCliente>/<AÑO>/<NUM-MES_NOMBRE-MES_NOMBRE_AÑO>/`
 
 Por ejemplo:  
 `Facturas_clientes/Perez_Juan/2025/04_Abril_2025/20123456783_011_0000_1_00000001.pdf`
+`Facturas_clientes/Perez_Juan/2025/04_Abril_2025/20123456783_011_0000_1_00000002.pdf`
 
 ---
 
